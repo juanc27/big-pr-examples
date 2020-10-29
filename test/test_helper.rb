@@ -37,3 +37,11 @@ def game_2
                            away_score: 88,
                            date: DateTime.now + 1.day)
 end
+
+def game_3
+  @game_3 ||= Game.create!(home_team: team_1,
+                           away_team: team_2,
+                           home_score: 100,
+                           away_score: 88,
+                           date: DateTime.now + 2.day)
+end

@@ -1,0 +1,6 @@
+<tr>
+  <td><%= team['name'] %></td>
+  <td><%= team[:wins] || team.wins %></td>
+  <td><%= team[:losses] || team.losses%></td>
+  <td><%= "%.3f" % (team[:wining_pct] || team.wining_pct) %></td>
+</tr>

@@ -1,0 +1,13 @@
+<table class="table table-striped">
+  <tr>
+    <th>Name</th>
+    <th>Wins</th>
+    <th>Losses</th>
+    <th>Wining %</th>
+  </tr>
+  <tbody>
+  <% @teams.each do |team| %>
+    <%= render partial: 'standing', locals: { team: team } %>
+  <% end %>
+  </tbody>
+</table>

@@ -1,0 +1,11 @@
+<table class="table table-striped">
+  <tr>
+    <th>Name</th>
+    <th>Wins</th>
+    <th>Losses</th>
+    <th>Wining %</th>
+  </tr>
+  <tbody>
+    <%= render partial: 'standing', locals: { team: @team } %>
+  </tbody>
+</table>
