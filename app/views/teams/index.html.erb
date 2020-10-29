@@ -1,0 +1,12 @@
+<table class="table table-striped">
+  <tr>
+    <th>Name</th>
+  </tr>
+  <tbody>
+  <% @teams.each do |team| %>
+      <tr>
+        <td><%= team['name'] %></td>
+      </tr>
+  <% end %>
+  </tbody>
+</table>

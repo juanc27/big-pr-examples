@@ -1,0 +1,20 @@
+<table class="table table-striped">
+  <tr>
+    <th>Date</th>
+    <th>Home Team</th>
+    <th>Home Score</th>
+    <th></th>
+    <th>Away Team</th>
+    <th>Away Score</th>
+  </tr>
+  <tbody>
+  <tr>
+    <td><%= @game.date.strftime('%a %m/%d %l:%M%P') %></td>
+    <td><%= @game.home_team.name %></td>
+    <td><%= @game.home_score %></td>
+    <td></td>
+    <td><%= @game.away_team.name %></td>
+    <td style="text-align:right"><%= @game.away_score %></td>
+  </tr>
+  </tbody>
+</table>

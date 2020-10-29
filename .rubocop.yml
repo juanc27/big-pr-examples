@@ -1,0 +1,14 @@
+# Default rubocop config here:
+# https://raw.githubusercontent.com/bbatsov/rubocop/master/config/default.yml
+
+AllCops:
+  TargetRubyVersion: 2.5
+
+#
+# Style
+#
+Style/Documentation:
+  Enabled: false
+
+Style/FrozenStringLiteralComment:
+  Enabled: false
