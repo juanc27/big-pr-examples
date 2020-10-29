@@ -1,8 +1,7 @@
 # README
 
 - install postgres
-- create Dbs: ./restore.sh
-- bundle
+- bundle install
 - rails db:reset
-- run tests: rails t
+- run tests: rails test
 * ...
